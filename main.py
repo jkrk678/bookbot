@@ -36,8 +36,6 @@ def count_letters(string):
 
 def sort_letters(letter_dict):
     letter_list = list(letter_dict.items())
-    print(letter_list)
-    print(list(letter_dict))
     return sorted(letter_list, reverse=True, key=lambda x: x[1])
 
 main()
